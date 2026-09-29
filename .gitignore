@@ -1,0 +1,55 @@
+# Environment
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual Environments
+myenv/
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# FAISS / Vector stores
+*.index
+*.faiss
+index/
+
+# Misc
+*.bak
+*.tmp
